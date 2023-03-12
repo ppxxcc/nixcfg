@@ -1,0 +1,5 @@
+alias ls='ls -hF --color --time-style=long-iso'
+
+PS1="\[\033[01;31m\]\u@\h\[\033[00m\] \[\033[01;36m\]\w\[\033[00m\]\n\[\033[01;37m\]$\[\033[00m\] "
+
+alias ghkey='echo ghp_ 4PWi4b zKNVv2WCR9 Edj404CH NVzGFd1VOr8x' #Last is capital J

@@ -1,0 +1,30 @@
+set network to metered
+
+sudo dnf update
+
+
+
+flatpak remote-delete flathub
+
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+
+sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+
+sudo dnf group install "C Development Tools and Libraries" "Development Tools"
+
+sudo dnf update -y # and reboot if you are not on the latest kernel
+sudo dnf install akmod-nvidia # rhel/centos users can use kmod-nvidia instead
+sudo dnf install xorg-x11-drv-nvidia-cuda #optional for cuda/nvdec/nvenc support
+
+sudo dnf install neofetch vim vlc chromium git python3-ipython python3-pip tmux rsync curl nasm
+sudo dnf install wine
+
+sudo dnf remove -y ibus ibus-anthy
+
+sudo apt install fcitx5 fcitx5-mozc
+
+sudo dnf install cascadia-code-fonts fira-code-fonts japanese-bitmap-fonts
+
+Copy personalization stuff to cfg folder
