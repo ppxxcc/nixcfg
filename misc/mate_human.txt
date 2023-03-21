@@ -1,0 +1,15 @@
+#### Manual installation for Debian and Ubuntu
+
+* Download archive and extract *src* subdirectories in `~/.themes/`
+* Configure font rendering and GTK scrollbars and QT theme, add in `/etc/environment`:
+```
+FREETYPE_PROPERTIES="truetype:interpreter-version=35"
+GTK_OVERLAY_SCROLLING=0
+QT_QPA_PLATFORMTHEME=gtk2
+```
+* Install icons and cursors themes: `sudo apt install gnome-icon-theme dmz-cursor-theme`
+* Install package for GTK 2 apps: `sudo apt install gtk2-engines-murrine`
+* Install package for QT 5 apps: `sudo apt install qt5-gtk2-platformtheme qt5-gtk-platformtheme`
+* Install package to restore the window title bar for GTK 3 apps: `sudo apt install gtk3-nocsd`
+* Restart your session
+
