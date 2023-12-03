@@ -1,0 +1,9 @@
+applications/*
+fonts/*
+images/*
+
+!applications/.gitkeep
+!fonts/.gitkeep
+!images/.gitkeep
+
+

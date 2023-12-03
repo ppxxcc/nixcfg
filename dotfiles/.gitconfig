@@ -1,0 +1,7 @@
+[user]
+	name = pxc
+	email = none
+[core]
+	editor = vim
+[credential]
+	helper = store
