@@ -30,7 +30,7 @@ apt -y install ../../applications/google-chrome-stable_current_amd64.deb
 echo "Installing various software."
 sleep 1
 
-apt -y install vlc ipython3 python3-pip gnome-shell-extension-dashtodock simplescreenrecorder gimp nasm geany wine wine32 wine64 libwine libwine:i386 fonts-wine dosbox libsdl2-*-2.0-0 iverilog ghdl gtkwave notepadqq freeglut3-dev gawk patch bzip2 tar make libgmp-dev libmpfr-dev libmpc-dev gettext wget libelf-dev texinfo bison flex sed git diffutils curl libjpeg-dev libpng-dev pkg-config libisofs-dev meson ninja-build
+apt -y install vlc ipython3 python3-pip gnome-shell-extension-dashtodock simplescreenrecorder gimp nasm geany wine wine32 wine64 libwine libwine:i386 fonts-wine dosbox libsdl2-*-2.0-0 iverilog ghdl gtkwave notepadqq freeglut3-dev gawk patch bzip2 tar make libgmp-dev libmpfr-dev libmpc-dev gettext wget libelf-dev texinfo bison flex sed git diffutils curl libjpeg-dev libpng-dev pkg-config libisofs-dev meson ninja-build yaru-theme-icon 
 
 
 
